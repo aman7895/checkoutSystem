@@ -45,7 +45,7 @@ Path | Method | Role | Explanation
   $mvn clean install
   
   run the following java command from the project folder
-  $java -jar target/checkout-system-0.0.1-SNAPSHOT.jar
+  $java -jar target/checkoutSystem-0.0.1-SNAPSHOT.jar
   ```
 
 #### future-works:
@@ -59,27 +59,27 @@ A few things to be worked on next:
 
 - `mvn clean install` snapshot:
     ```$xslt
-    [INFO] -------------------------------------------------------
-    [INFO]  T E S T S
-    [INFO] -------------------------------------------------------
-    [INFO] Running deep.aman.checkoutsystem.domain.basket.BasketTest
-    [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 s - in deep.aman.checkoutsystem.domain.basket.BasketTest
-    [INFO] Running deep.aman.checkoutsystem.service.BasketServiceTest
-    [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.356 s - in deep.aman.checkoutsystem.service.BasketServiceTest
-    [INFO] Running deep.aman.checkoutsystem.service.StoreOwnerServiceTest
-    [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in deep.aman.checkoutsystem.service.StoreOwnerServiceTest
-    [INFO] 
-    [INFO] Results:
-    [INFO] 
-    [INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
-    [INFO] 
-    [INFO] ------------------------------------------------------------------------
-    [INFO] BUILD SUCCESS
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Total time: 7.283 s
-    [INFO] Finished at: 2020-08-05T13:21:25+08:00
-    [INFO] Final Memory: 15M/36M
-    [INFO] ------------------------------------------------------------------------
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.aman.checkoutsystem.service.BasketServiceTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.196 s - in com.aman.checkoutsystem.service.BasketServiceTest
+[INFO] Running com.aman.checkoutsystem.service.StoreOwnerServiceTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.service.StoreOwnerServiceTest
+[INFO] Running com.aman.checkoutsystem.domain.basket.BasketTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.domain.basket.BasketTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.575 s
+[INFO] Finished at: 2021-11-07T21:22:52+08:00
+[INFO] ------------------------------------------------------------------------
+
     ```
 
 - Swagger UI:
