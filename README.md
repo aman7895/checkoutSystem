@@ -59,27 +59,26 @@ A few things to be worked on next:
 
 - `mvn clean install` snapshot:
     ```$xslt
-[INFO] -------------------------------------------------------
-[INFO]  T E S T S
-[INFO] -------------------------------------------------------
-[INFO] Running com.aman.checkoutsystem.service.BasketServiceTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.196 s - in com.aman.checkoutsystem.service.BasketServiceTest
-[INFO] Running com.aman.checkoutsystem.service.StoreOwnerServiceTest
-[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.service.StoreOwnerServiceTest
-[INFO] Running com.aman.checkoutsystem.domain.basket.BasketTest
-[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.domain.basket.BasketTest
-[INFO] 
-[INFO] Results:
-[INFO] 
-[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
-[INFO] 
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  7.575 s
-[INFO] Finished at: 2021-11-07T21:22:52+08:00
-[INFO] ------------------------------------------------------------------------
-
+    [INFO] -------------------------------------------------------
+    [INFO]  T E S T S
+    [INFO] -------------------------------------------------------
+    [INFO] Running com.aman.checkoutsystem.service.BasketServiceTest
+    [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.196 s - in com.aman.checkoutsystem.service.BasketServiceTest
+    [INFO] Running com.aman.checkoutsystem.service.StoreOwnerServiceTest
+    [INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.service.StoreOwnerServiceTest
+    [INFO] Running com.aman.checkoutsystem.domain.basket.BasketTest
+    [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in com.aman.checkoutsystem.domain.basket.BasketTest
+    [INFO] 
+    [INFO] Results:
+    [INFO] 
+    [INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0
+    [INFO] 
+    [INFO] ------------------------------------------------------------------------
+    [INFO] BUILD SUCCESS
+    [INFO] ------------------------------------------------------------------------
+    [INFO] Total time:  7.575 s
+    [INFO] Finished at: 2021-11-07T21:22:52+08:00
+    [INFO] ------------------------------------------------------------------------
     ```
 
 - Swagger UI:
